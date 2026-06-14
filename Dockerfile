@@ -6,7 +6,9 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install --include=optional
+RUN rm -f package-lock.json && \
+    npm install && \
+    npm install @rollup/rollup-linux-x64-gnu --save-optional
 
 COPY . .
 
