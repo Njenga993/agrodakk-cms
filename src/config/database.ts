@@ -7,7 +7,7 @@ export default ({ env }) => ({
       database: env('DATABASE_NAME', 'Agrodakk-db'),
       user: env('DATABASE_USERNAME', 'postgres'),
       password: env('DATABASE_PASSWORD', ''),
-      ssl: env.bool('DATABASE_SSL', true)
+      ssl: env.bool('DATABASE_SSL', false)
         ? { rejectUnauthorized: false }
         : false,
     },
