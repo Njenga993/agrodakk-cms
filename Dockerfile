@@ -6,11 +6,11 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm install --include=optional
 
 COPY . .
 
-RUN npm install --include=optional
+RUN npm run build
 
 EXPOSE 1337
 
