@@ -1,0 +1,5 @@
+[build]
+builder = "nixpacks"
+
+[build.environment]
+NIXPACKS_PKGS = "python3, g++, make, libc6-compat"
