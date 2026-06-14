@@ -1,6 +1,3 @@
 [build]
-builder = "nixpacks"
-
-[build.environment]
-NIXPACKS_NODE_VERSION = "20"
-NIXPACKS_PKGS = "python3, g++, make, libc6-compat, glibc"
+builder = "docker"
+dockerfilePath = "./Dockerfile"
