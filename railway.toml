@@ -2,4 +2,5 @@
 builder = "nixpacks"
 
 [build.environment]
-NIXPACKS_PKGS = "python3, g++, make, libc6-compat"
+NIXPACKS_NODE_VERSION = "20"
+NIXPACKS_PKGS = "python3, g++, make, libc6-compat, glibc"
