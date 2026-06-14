@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_rich_texts",
+  "info": {
+    "displayName": "rich-text"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

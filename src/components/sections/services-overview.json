@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_services_overviews",
+  "info": {
+    "displayName": "services-overview"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  },
+  "config": {}
+}

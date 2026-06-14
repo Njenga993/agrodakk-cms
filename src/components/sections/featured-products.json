@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_featured_products",
+  "info": {
+    "displayName": "featured-products"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  },
+  "config": {}
+}

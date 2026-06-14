@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_contact_forms",
+  "info": {
+    "displayName": "contact-form"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "showMap": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}
